@@ -1,0 +1,20 @@
+#include <stdio.h>
+int x;
+int f;
+int y;
+int boyut;
+int sonucboyut;
+int a[2] = {1,2};
+int main()
+{
+    boyut = sizeof(a);
+   x = &a[0];
+   f = &a[1];
+   y = f-x;
+   sonucboyut = boyut/y;
+   printf("x = %d",x);
+   printf(" f = %d",f);
+   printf(" y = %d",y);
+    printf(" sonuc boyut  = %d",sonucboyut);
+
+}
